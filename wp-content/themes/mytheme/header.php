@@ -40,9 +40,9 @@
 				<?php
 				wp_nav_menu(
 					array(
-						'menu'       => 'header-menu',
-						'container'  => '',
-						'items_wrap' => '<li class="navbar-nav ml-auto">%3$s</li>',
+						'theme_location' => 'header',
+						'container'      => '',
+						'items_wrap'     => '<li class="navbar-nav ml-auto">%3$s</li>',
 					)
 				);
 				?>

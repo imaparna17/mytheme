@@ -56,14 +56,15 @@ function themeslug_enqueue_script() {
 function register_my_menus() {
 	register_nav_menus(
 		array(
-			'header-menu' => 'Header Menu',
-			'extra-menu'  => 'Extra Menu',
+			'header'  => 'Header Menu',
+			'footeru' => 'Extra Menu',
 		)
 	);
 }
 add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_style' );
 add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_script' );
 add_action( 'init', 'register_my_menus' );
+add_theme_support( 'post-thumbnails' );
 
 
 

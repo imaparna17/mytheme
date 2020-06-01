@@ -1,0 +1,63 @@
+.site-header {
+  background-color: #f2f2f2;
+}
+
+.page-header-row {
+  background-color: #f2f2f2;
+}
+
+.post-thumb-row {
+  background-color: #f2f2f2;
+}
+
+.site-footer {
+  background-color: #f2f2f2;
+}
+
+.page-header-row .entry-header h1 {
+  color: #292929;
+}
+
+.site-header {
+  color: rgba(22, 22, 22, 0.7);
+}
+
+.site-header a {
+  color: rgba(22, 22, 22, 0.7);
+}
+
+.site-title a {
+  color: #292929;
+}
+
+.site-header a:hover {
+  color: #292929;
+}
+
+.main-navigation ul ul {
+  background-color: #f2f2f2;
+}
+
+.page-header h1 {
+  color: #292929;
+}
+
+.hero-row {
+  background-color: #f2f2f2;
+}
+
+.hero-row .hero-title {
+  color: #292929;
+}
+
+.hero-row.has-header-image .hero-title {
+  color: #fff;
+}
+
+.gb-footer-widgets .widget-title {
+  color: #292929;
+}
+
+.gb-footer-widgets figcaption {
+  color: rgba(255, 255, 255, 0.75);
+}

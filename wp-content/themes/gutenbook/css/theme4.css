@@ -1,0 +1,65 @@
+/* <fs_premium_only> */
+.site-header {
+  background-color: #ffc11f; }
+
+.page-header-row {
+  background-color: #ffc11f; }
+
+.post-thumb-row {
+  background-color: #ffc11f; }
+
+.site-footer {
+  background-color: #ffc11f; }
+
+.page-header-row .entry-header h1 {
+  color: #333; }
+
+a {
+  color: #ffc11f; }
+
+.hero-row {
+  color: rgba(255, 255, 255, 0.95); }
+
+.site-header {
+  color: rgba(255, 255, 255, 0.9); }
+
+.site-header a {
+  color: rgba(255, 255, 255, 0.9); }
+
+.entry-meta, .entry-meta a {
+  color: #555; }
+
+.site-title a {
+  color: #333; }
+
+.site-header a:hover {
+  color: #111; }
+
+.main-navigation ul ul {
+  background-color: #ffc11f; }
+
+.page-header h1 {
+  color: #333; }
+
+.hero-row {
+  background-color: #ffc11f; }
+
+.hero-row .hero-title {
+  color: #333; }
+
+.hero-row.has-header-image .hero-title {
+  color: #fff; }
+
+.comment-form .form-submit input {
+  background-color: #ffc11f; }
+
+.site-footer, .site-footer a {
+  color: rgba(255, 255, 255, 0.95); }
+
+.gb-footer-widgets .widget-title {
+  color: #333; }
+
+.gb-footer-widgets figcaption {
+  color: rgba(255, 255, 255, 0.95); }
+
+/* <fs_premium_only> */

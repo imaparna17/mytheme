@@ -1,0 +1,65 @@
+/* <fs_premium_only> */
+.site-header {
+  background-color: #002e5b; }
+
+.page-header-row {
+  background-color: #002e5b; }
+
+.post-thumb-row {
+  background-color: #002e5b; }
+
+.site-footer {
+  background-color: #002e5b; }
+
+.page-header-row .entry-header h1 {
+  color: #fde428; }
+
+a {
+  color: #002e5b; }
+
+.hero-row {
+  color: rgba(255, 255, 255, 0.75); }
+
+.site-header {
+  color: rgba(255, 255, 255, 0.7); }
+
+.site-header a {
+  color: rgba(255, 255, 255, 0.7); }
+
+.page-header-row .entry-meta, .page-header-row .entry-meta a {
+  color: rgba(255, 255, 255, 0.7); }
+
+.site-title a {
+  color: #fde428; }
+
+.site-header a:hover {
+  color: #fde428; }
+
+.main-navigation ul ul {
+  background-color: #002e5b; }
+
+.page-header h1 {
+  color: #fde428; }
+
+.hero-row {
+  background-color: #002e5b; }
+
+.hero-row .hero-title {
+  color: #fde428; }
+
+.hero-row.has-header-image .hero-title {
+  color: #fff; }
+
+.comment-form .form-submit input {
+  background-color: #002e5b; }
+
+.site-footer, .site-footer a {
+  color: rgba(255, 255, 255, 0.75); }
+
+.gb-footer-widgets .widget-title {
+  color: #fde428; }
+
+.gb-footer-widgets figcaption {
+  color: rgba(255, 255, 255, 0.75); }
+
+/* <fs_premium_only> */

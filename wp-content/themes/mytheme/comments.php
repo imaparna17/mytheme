@@ -8,5 +8,7 @@
  * E.g., it puts together the home page when no home.php file exists.
  *
  * @package WordPress
+ * 1. I want you to add post thumbnail support to your theme . (done)
+ * 2. add (custom header)(done) and (custom background support)(almostdone) to theme.
+ * 3. implement all theme features: sidebar, menus, post-formats, title-tag, custom-background, custom-header(done), custom-logo(done), post-thumbnails, automatic-feed-links, html5, editor-style, content_width.
  *
- * /

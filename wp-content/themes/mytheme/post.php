@@ -34,7 +34,7 @@ get_header(); ?>
 			<p>Posted on January 1, 2019 at 12:00 PM</p>
 			<hr>
 			<!-- Preview Image -->
-			<img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
+			<img class="card-img-top" src="<?php header_image(); ?>" alt="Card image cap">
 			<hr>
 
 			<!-- Post Content -->

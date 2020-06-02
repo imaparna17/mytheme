@@ -10,7 +10,9 @@
  * @package WordPress
  */
 
-get_header(); ?>
+get_header();
+body_class();
+?>
 
 <!-- Page Content -->
 <div class="container">
@@ -30,7 +32,7 @@ get_header(); ?>
 
 			<!-- Blog Post -->
 			<div class="card mb-4">
-				<img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+				<img class="card-img-top" src="<?php header_image(); ?>" alt="Card image cap">
 				<div class="card-body">
 					<h2 class="card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 							<?php

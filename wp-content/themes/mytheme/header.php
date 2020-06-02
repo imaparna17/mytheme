@@ -26,6 +26,7 @@
 
 
 <?php wp_head(); ?>
+<?php body_class(); ?>
 </head>
 
 <body>

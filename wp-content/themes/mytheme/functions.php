@@ -53,21 +53,74 @@ function themeslug_enqueue_script() {
  *
  * @package mytheme
  */
-function register_my_menus() {
-	register_nav_menus(
-		array(
-			'header'  => 'Header Menu',
-			'footeru' => 'Extra Menu',
-		)
-	);
-}
+
 if ( ! isset( $content_width ) ) {
 	$content_width = 600;
 }
-
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @package mytheme
+ */
+function register_my_menus() {
+	register_nav_menus(
+		array(
+			'header' => 'Header Menu',
+			'footer' => 'Extra Menu',
+		)
+	);
+}
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @package mytheme
+ */
+function login() {
+	if ( is_admin() || wp_doing_ajax() ) {
+		return;
+	}
+	if ( ! is_user_logged_in() ) {
+		wp_redirect( esc_url( wp_login_url() ), 307 );
+	}
+}
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @package mytheme
+ */
+function registration() {
+	if ( ! is_user_logged_in() ) {
+		global $pippin_load_css;
+		$pippin_load_css === true;
+		$registration_enabled = get_option('users_can_register');
+		if ( $registration_enabled ) {
+			$output = registration();
+		} else {
+			$output = __( 'User registration is not enabled' );
+		}
+		return $output;
+	}
+}
 add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_style' );
 add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_script' );
 add_action( 'init', 'register_my_menus' );
+add_action('template_redirect', 'registration');
+add_action( 'template_redirect', 'login');
 // post thumbnail.
 add_theme_support( 'html5', array( 'gallery' ) );
 add_theme_support( 'post-thumbnails' );
